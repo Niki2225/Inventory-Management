@@ -1,0 +1,16 @@
+{
+  "pitems": [
+    {
+      "Id": 1,
+      "Name": "book",
+      "Quantity": "10",
+      "Price": "5000"
+    },
+    {
+      "Id": 2,
+      "Name": "pen",
+      "Quantity": "100",
+      "Price": "2000"
+    }
+  ]
+}
