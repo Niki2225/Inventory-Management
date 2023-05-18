@@ -1,0 +1,44 @@
+*{
+    padding:0px;
+    margin:0px;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    height: 60px;
+    width:100%;
+    background-color:#036666;
+    
+}
+.appName{
+    float:left;
+    font-size: 45px;
+    font-weight: bold;
+    color:white;
+    margin-left: 20px;
+    
+}
+.Menu{
+    
+    float:right;
+    margin-right:40px;
+}
+.MenuItem{
+    color:#fff;
+    display:inline-block;
+    margin: 0 15px;
+    margin-top: 20px;
+}
+.Item{
+    
+    color:white;
+    font-size: 16px;
+    text-transform:uppercase;
+    border:1px solid transparent;
+    padding:7px 10px;
+    border-radius:3px;
+}
+a.menuItem,a:hover{
+    border:1px solid white;
+    transition:.5s;
+}

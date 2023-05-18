@@ -1,0 +1,147 @@
+.container{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+    width:1100px;
+    height:120px;
+    margin-left:200px;
+}
+.PurchaseList{
+    margin-top:20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style:initial;
+}
+
+.btn-update{
+    margin: 2px 10px;
+    text-align: center;
+    text-decoration:none;
+    border:none;
+    padding:3px;
+    width:50px;
+    border-radius:5px;
+    color: aliceblue;
+    background-color: #2097d2;
+}
+
+.btn-delete{
+    margin: 2px 10px;
+    border-radius:6px;
+    text-align: center;
+    text-decoration:none;
+    border:none;
+    padding:3px;
+    width:50px;
+    color: aliceblue;
+    background-color: #ee0909;
+    
+}
+
+.btn-add{
+    margin-left: 250px;
+    border-radius:6px;
+    text-align: center;
+    text-decoration:none;
+    border:none;
+    padding:6px;
+    width: 80px;
+    color: aliceblue;
+    background-color: rgba(14, 143, 51, 0.978);
+    
+}
+
+table,th,tr,td{
+    border:1.5px solid #fff;
+    border-collapse:collapse;
+    width:1000px;
+    justify-content: center;
+}
+
+th{
+    font-size:large;
+    background-color:#e76585;
+    
+}
+
+td{
+    text-align:center;
+    background-color: #eae1e7;
+}
+
+
+
+/* CSS for Form */
+
+.EditForm {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:400px;
+    width:400px;
+    margin-left:550px;
+    margin-top:60px;
+    border-radius: 5px;
+    background-color: #d6d9d1; 
+  }
+
+.HeadingEdit{
+    margin-bottom: 100px;
+}
+
+  input.form-control{
+    
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    
+  }
+  label{
+    font-size: 18px;
+  }
+  .btn-changes{
+    
+    border-radius:6px;
+    text-align: center;
+    text-decoration:none;
+    border:none;
+    padding:10px;
+    width: 100px;
+    color: aliceblue;
+    background-color: rgba(58, 59, 58, 0.978);
+
+  }
+
+/* CSS for PurchaseAdd */
+.HeadingAdd{
+    margin-bottom: 30px;
+}
+
+.AddForm {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:400px;
+    width:400px;
+    margin-left:550px;
+    margin-top:60px;
+    border-radius: 5px;
+    background-color: #d6d9d1; 
+  }
+
+  .btn-addsubmit1{
+    
+    border-radius:6px;
+    text-align: center;
+    text-decoration:none;
+    border:none;
+    padding:10px;
+    width: 100px;
+    margin-left: 2px;
+    color: aliceblue;
+    background-color: rgba(58, 59, 58, 0.978);
+
+  }
